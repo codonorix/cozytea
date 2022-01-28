@@ -71,8 +71,8 @@ body {
 }
 
 .teaImages {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .teaImages img {
@@ -83,8 +83,72 @@ body {
 /*=================================================| LOCATIONS |=================================================*/
 
 #locations {
-    display: flex;
+    padding-top: 15px;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*justify-content: space-around;*/
+    max-width: 1200px;
+    background-image: url("images/img-locations-background.png");
+    margin-right: auto;
+    margin-left: auto;
     height: 500px;
-    background-image: url("");
+    text-align: center;
+}
+
+#locationsHeading {
+
+}
+
+.locationBlockMain {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+}
+
+.locationsBlock {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+    width: 300px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 40px;
+    background-color: black;
+    opacity: 1;
+    /*============*/
+
+}
+
+/*=================================================| FOOTER |=================================================*/
+
+#footer {
+    display: flex;
+    /*width: 1200px;*/
+    /*height: 200px;*/
+    max-width: 1200px;
+    max-height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+/*=================================================| FOOTER |=================================================*/
+
+#copyright {
+    display: flex;
+    text-align: center;
+    padding-left: 20px;
 }
